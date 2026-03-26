@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --red: #750202;
+    --brown: #dea57978;
+    --green: #386505;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://img.freepik.com/free-vector/beige-leafy-watercolor-background-vector_53876-136491.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--brown);
+    border-radius: 10px;
+}
+header h1 {
+    color: var(--red);
+    margin: 0;
+}
+header p {
+    color: var(--green);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.navbar {
+    background-color: var(--brown);
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#nav-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#nav-menu li {
+    display: inline;
+}
+#nav-menu li a {
+    text-decoration: none;
+    color: var(--green);
+    background-color: var(--brown);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#nav-menu li a:hover {
+    background-color: var(--red);
+    color: white;
+}
+img {
+    width: 25%;
+    height: 5%;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+main {
+    background-color: var(--brown);
+    padding: 20px;
+    border-radius: 10px;
+}
+main h2 {
+    color: var(--red);
+    margin-top: 0;
+}
+main p {
+    color: var(--green);
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+.about {
+    text-align: justify;
+    overflow: scroll;
+    height: 150px;
+    width: auto;
+}
+main table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+main table, main th, main td {
+    border: 1px solid var(--green);
+    border-width: 2px;
+}
+main th, main td {
+    padding: 10px;
+    text-align: center;
+}
+main th {
+    background-color: var(--red);
+    color: white;
+}
+main ul, main ol {
+    color: var(--green);
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+main ul li, main ol li {
+    margin-bottom: 5px;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--brown);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.footer p {
+    color: var(--green);
+    font-size: 1em;
+    margin: 0;
+}   
