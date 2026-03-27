@@ -132,18 +132,19 @@ main ul li, main ol li {
     top: 50%;
     left: 50%;
     color: white;
-    font-weight: bold;
     transform-origin: center;
 }
 .label span {
     display: inline-block;
-    transform: translate (-0%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 80%;
+    font-weight: bold;
 }
-.l1 {transform: rotate(50deg) translate(65px) rotate(-65deg);}
-.l2 {transform: rotate(108deg) translate(90px) rotate(-108deg);}
-.l3 {transform: rotate(180deg) translate(90px) rotate(-180deg);}
-.l4 {transform: rotate(252deg) translate(120px) rotate(-252deg);}
-.l5 {transform: rotate(290deg) translate(60px) rotate(-290deg);}
+.l1 {transform: rotate(10deg) translate(80%) rotate(-10deg);}
+.l2 {transform: rotate(90deg) translate(75%) rotate(-90deg);}
+.l3 {transform: rotate(170deg) translate(160%) rotate(-170deg);}
+.l4 {transform: rotate(230deg) translate(210%) rotate(-230deg);}
+.l5 {transform: rotate(300deg) translate(290%) rotate(-300deg);}
 .footer {
     text-align: center;
     padding: 10px;
@@ -154,6 +155,7 @@ main ul li, main ol li {
 .footer p {
     color: var(--green);
     font-size: 1em;
+    font-weight: bold;
     margin: 0;
 }
 .col-1 {width: 8.33;}
@@ -172,4 +174,9 @@ main ul li, main ol li {
     [class*="col-"] {
         width: 100%;
     }
+}
+hr {
+    color: var(--green);
+    border-width: 2px;
+    border-style: solid;
 }
